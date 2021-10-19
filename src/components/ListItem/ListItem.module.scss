@@ -1,0 +1,15 @@
+.item {
+  display: flex;
+  align-items: center;
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.imgWrapper {
+  margin-right: 15px;
+}
+
+.textWrapper p:not(:last-child) {
+  margin-bottom: 15px;
+}
