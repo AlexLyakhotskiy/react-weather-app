@@ -63,10 +63,10 @@ export default function App() {
     >
       <div>
         <Searchbar onSubmit={setQuery} />
-        {latitude && !countryData.length && (
+        {latitude && weatherIcon && !countryData.length && (
           <div className={styles.imageWrapper}>
             <img
-              src={`http://openweathermap.org/img/wn/${weatherIcon}@2x.png`}
+              src={`https://openweathermap.org/img/wn/${weatherIcon}@2x.png`}
               alt="weather-icon"
               className=""
             />

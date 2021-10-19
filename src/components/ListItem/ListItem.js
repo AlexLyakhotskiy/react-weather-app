@@ -18,7 +18,7 @@ export default function ListItem({ data }) {
     <li className={styles.item}>
       <div className={styles.imgWrapper}>
         <img
-          src={`http://openweathermap.org/img/wn/${icon}@2x.png`}
+          src={`https://openweathermap.org/img/wn/${icon}@2x.png`}
           alt="weather-icon"
           className=""
         />
